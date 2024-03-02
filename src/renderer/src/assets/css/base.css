@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.dark {
+  /* background */
+  --color-background: #1f1f1f;
+  /* Header */
+  --color-neutral-90: #e3e3e3;
+  /* active */
+  --color-secondary-container: #004a77;
+  --color-on-secondary-container: #c2e7ff;
+  /* boxes on background */
+  --color-surface-1: #28292a;
+  --color-on-surface: #e3e3e3;
+  /* nav rail */
+  --color-surface-2: #2d2f31;
+  --color-on-surface-variant: #c4c7c5;
+  /* rail hover */
+  --color-on-surface-variant-2: #393c3c;
+  /* border */
+  --color-surface-variant: #444746;
+  /* green */
+  --color-tertiary-container: #0f5223;
+  --color-on-tertiary-container: #072711;
+  /* Section Header background */
+  --color-secondary-variant: #4f6079;
+}
+
+body.light {
+  /* background */
+  --color-background: #ffffff;
+  /* Header */
+  --color-neutral-90: #1f1f1f;
+  /* blue */
+  --color-secondary-container: #c2e7ff;
+  --color-on-secondary-container: #001d35;
+  /* dark surface */
+  --color-surface-1: #f8fafd;
+  --color-on-surface: #1f1f1f;
+  /* surface */
+  --color-surface-2: #f3f6fc;
+  --color-on-surface-variant: #444746;
+  /* surface hover */
+  --color-on-surface-variant-2: #e5e8ed;
+  /* light gray */
+  --color-surface-variant: #e1e3e1;
+  /* green */
+  --color-tertiary-container: #c4eed0;
+  --color-on-tertiary-container: #072711;
+  /* Section Header background */
+  --color-secondary-variant: #afc9ef;
+}
